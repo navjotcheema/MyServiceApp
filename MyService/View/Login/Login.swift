@@ -41,7 +41,7 @@ struct Login: View {
                         viewModel.sendLoginDetails()
                     }
                     
-                    ButtonView(buttonText: "Register Button"){
+                    ButtonView(buttonText: "Register"){
                         viewModel.isNavigating = true
                     
                     }
