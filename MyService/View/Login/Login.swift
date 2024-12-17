@@ -41,9 +41,11 @@ struct Login: View {
                         viewModel.sendLoginDetails()
                     }
                     
-                    ButtonView(buttonText: "Register"){
+                    ButtonView(buttonText: "Register Button"){
                         viewModel.isNavigating = true
+                    
                     }
+                    
                     
                 }.padding()
                     .navigationTitle("Login")
@@ -55,6 +57,7 @@ struct Login: View {
                                   title: viewModel.tittle,
                                   message: viewModel.message,
                                   dismissButtonText: "Alright")
+                
             }
         }
     }
